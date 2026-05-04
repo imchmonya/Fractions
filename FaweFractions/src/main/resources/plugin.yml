@@ -1,0 +1,15 @@
+name: FaweFractions
+version: '1.0-SNAPSHOT'
+main: org.faweFractions.FaweFractions
+api-version: '1.21'
+authors: [ _chmonya ]
+depend: [PlaceholderAPI]
+commands:
+  fractions:
+    usage: /fractions <create|delete|info|invite|kick|leave|accept>
+    permission: fractions.use
+permissions:
+  fractions.use:
+    default: true
+  fractions.admin:
+    default: op
